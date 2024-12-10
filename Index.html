@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayush - Developer Portfolio</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 78px;
+        background-color: rgb(18, 18, 62);
+        padding: 0 20px;
+      }
+      nav ul {
+        display: flex;
+        list-style: circle;
+      }
+      nav ul li {
+        margin:0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        list-style: circle;
+      }
+      nav ul li a:hover {
+        color: rgb(81, 81, 200);
+        font-size: 1.1rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 3rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .firstSection>div {
+        width: 30%;
+      }
+      #element {
+        color: rgb(162, 11, 237);
+      }
+      .leftSection {
+        font-size: 2rem;
+        
+      }
+      .leftSection .btn{
+      padding: 12px;
+      background: #1e2167;
+      color: white;
+      border: 2px solid white;
+      font-size:20px;
+      cursor: pointer;
+      }
+      .leftSection .buttons
+      {
+        padding: 50px 0;
+      }
+      .RightSection img {
+        width: 100%;
+        margin: 50px 0;
+      }
+      .ore {
+        color: rgb(162, 11, 237);
+      }
+      .text-gray {
+        color: grey;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection .box {
+        background: white;
+        width: 78vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+        margin: 0;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        margin-top: 70px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 20px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+    
+      .footerFirst {
+        background-color:rgb(18, 18, 62);
+        height: 100px;
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footerSecond nav li{
+        padding: 23px 122px;
+
+      }
+      .footer > div {
+        width: 123px;
+      }
+      .footerFirst h3 {
+        text-align: center;
+      }
+      .footer-text-center{
+        text-align: center;
+        color: grey;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ayush's Portfolio</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="home" class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="ore">Ayush.</span><br />
+          I am a passionate<br>
+          <span id="element"></span><br>
+          <a class="buttons">
+            <a href="https://github.com/AyushPrasad13 "target ="blank"><Button class="btn">Visit Github</Button></a>
+            <a href="https://drive.google.com/file/d/1JbTPbR0n9o3f1eLM7o40i58MGqyJfGOB/view?usp=sharing "target ="blank"><Button class="btn">Download Resume</Button></a>
+          </div> 
+      </div>
+        <div class="RightSection">
+          <img src="ayush.png" alt="Developer" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <h6><span class="text-gray">What I have done so far</span></h6>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="dev.png" alt="" />
+            <div class="vertical-title">
+              HTML Developer<br />
+              (2017)
+            </div>
+            <div class="vertical-desc">
+              Back in 2017, a spark of curiosity ignited a journey into the intricate world of web development.
+              It was the year I first encountered the magic of HTML. Like an artist discovering a new medium, 
+              I began to paint the canvas of the web with the basic elements of HTML.
+
+              Imagine this: a simple text editor, a blank page, and a beginner filled with ambition. 
+              My first creation was a personal portfolio website, a modest project that marked the beginning of my exploration.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="css.png" alt="" />
+            <div class="vertical-title">Css Developer <br />(2018-2019)</div>
+            <div class="vertical-desc">
+              In 2018 and 2019, my journey took flight, Into the realm of CSS, where styles turn bright. With HTML as my canvas, 
+              I sought to adorn, Pages with beauty, on web they were born.I learned the selectors, properties, and more, Colors 
+              and fonts, new skills to explore. Margins and paddings, borders so neat, Transforming plain text into something sweet.
+              A travel blog first, with CSS in play, Responsive and sleek, it paved the way. Grids and flexboxes, layouts so grand, 
+              A modern site emerged, just as I’d planned.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="javascript.png" alt="" />
+            <div class="vertical-title">Javascript Developer (2019-2020)</div>
+            <div class="vertical-desc">
+            In the dynamic years of 2019 to 2020, my journey as a web developer took a transformative turn as I delved into the powerful 
+            world of JavaScript. Having already mastered HTML and CSS, I was eager to add interactivity and functionality to my web projects,
+             and JavaScript offered the perfect solution.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="c-sharp.png" alt="" />
+            <div class="vertical-title">C# Developer <br />(2017-2019)</div>
+            <div class="vertical-desc">
+            The journey of mastering C# from 2020 to 2021 was nothing short of transformative. It began with an eagerness to learn, 
+            evolved through the creation of meaningful projects, and culminated in a profound understanding of object-oriented programming
+             and application development. From building an Inventory Management System and a Library Management System to more ambitious
+              projects like a Personal Finance Tracker, each endeavor was a testament to growth, dedication, and the relentless pursuit
+              of excellence.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="React logo .png" alt="" />
+            <div class="vertical-title">React Developer (2017-2019)</div>
+            <div class="vertical-desc">
+              In the vibrant and ever-evolving world of web development, the years 2021 and 2022 marked a significant chapter in 
+              my journey. These were the years I dived deep into React development, a leap that transformed my approach to creating 
+              dynamic and responsive web applications.
+            </div>
+          </div>
+
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="contact" class="footerFirst">
+        <div class="footer-first">
+          <h2>Contact me ~</h2>
+        </div>
+        <div class="footerSecond"></div>
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BI0utJpmBRRezhtl5tS%2B8iQ%3D%3D"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com/Ayush5886910649" target="_blank"
+                >Twitter</a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/Ayush137/" target="_blank"
+                >Leetcode</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/AyushPrasad13 " target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.naukri.com/mnjuser/profile?id=&altresid"
+                target="_blank"
+                >Naukri</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-text-center">
+        Copyright &#169; ayushsportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Android developer",
+          "Support Engineer",
+          "Data Analyst",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
